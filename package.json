@@ -18,8 +18,8 @@
     "dev:client": "rollup -c -w",
     "dev:server": "nodemon src/index.js",
     "dev": "run-p dev:client dev:server",
-    "build": "rollup -c",
-    "start": "node src/index.js"
+    "build": "NODE_ENV=production rollup -c",
+    "start": "NODE_ENV=production node src/index.js"
   },
   "dependencies": {
     "apollo-boost": "^0.4.2",
