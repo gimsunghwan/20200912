@@ -101,7 +101,7 @@
   <div slot="modal">
     <div class="modal-header">
       <h2>{currentIndex + 1} / {photoList.length}</h2>
-      <h2>← 좌우로 스와이프 →</h2>
+      <h2>←  좌우로 밀어서 넘기기  →</h2>
       <button on:click={() => dispatch('close')}>닫기</button>
     </div>
     <div class="modal">
