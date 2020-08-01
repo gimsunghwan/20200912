@@ -7,11 +7,24 @@ var models = [
   {
     name: "User",
     embedded: false
+  },
+  {
+    name: "Comment",
+    embedded: false
+  },
+  {
+    name: "Gift",
+    embedded: false
+  },
+  {
+    name: "Reservation",
+    embedded: false
   }
 ];
 exports.Prisma = prisma_lib_1.makePrismaClientClass({
   typeDefs,
   models,
-  endpoint: `https://leenkim-wedding-24528334fb.herokuapp.com/leenkim-wedding/build`
+  endpoint: `${process.env["PRISMA_ENDPOINT"]}`,
+  secret: `${process.env["PRISMA_SECRET"]}`
 });
 exports.prisma = new exports.Prisma();
