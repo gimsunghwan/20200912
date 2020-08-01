@@ -6,8 +6,8 @@
   import Greeting from './Greeting.svelte';
   import Information from './Information.svelte';
   import Gallery from './Gallery.svelte';
-  import Gift from './Gift.svelte';
-  import DaumMap from './DaumMap.svelte';
+  import KakaoMap from './KakaoMap.svelte';
+  import Reception from './Reception.svelte';
   import Comment from './Comment.svelte';
   import SocialShare from './SocialShare.svelte';
   import Footer from './Footer.svelte';
@@ -35,8 +35,8 @@
     <Greeting />
     <Information />
     <Gallery />
-    <Gift />
-    <DaumMap />
+    <KakaoMap />
+    <Reception />
     <Comment />
     <SocialShare />
     <Footer />

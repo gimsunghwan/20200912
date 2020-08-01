@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
 
-  const url = 'https://khjlji-wedding-invitation.herokuapp.com';
+  const url = 'https://leenkim-wedding.herokuapp.com';
   const title = document
     .querySelector("meta[property='og:title']")
     .getAttribute('content');

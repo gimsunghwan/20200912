@@ -26,13 +26,28 @@
       src: '/assets/images/photo-07.jpg',
     },
     {
-      src: '/assets/images/ogImage.jpg',
+      src: '/assets/images/photo-08.jpg',
     },
     {
       src: '/assets/images/photo-09.jpg',
     },
     {
       src: '/assets/images/photo-10.jpg',
+    },
+    {
+      src: '/assets/images/photo-11.jpg',
+    },
+    {
+      src: '/assets/images/photo-12.jpg',
+    },
+    {
+      src: '/assets/images/photo-13.jpg',
+    },
+    {
+      src: '/assets/images/photo-14.jpg',
+    },
+    {
+      src: '/assets/images/photo-15.jpg',
     },
   ];
 </script>
@@ -45,19 +60,19 @@
   .photo-wrap {
     display: inline-block;
     width: 33.3333%;
-    padding: 5px;
+    padding: 3px;
   }
 
   .photo {
     width: 100%;
-    height: 180px;
+    height: 200px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 40%;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     .photo {
       height: 30vw;
     }

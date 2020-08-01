@@ -53,7 +53,7 @@
 
     > h2,
     > button {
-      font-family: 'Nanum Gothic', sans-serif;
+      font-family: 'MapoFlowerIsland', sans-serif;
       font-size: 18px;
       font-weight: bold;
       line-height: 30px;
@@ -79,8 +79,8 @@
   }
 
   .siema {
-    max-width: 576px;
-    max-height: 648px;
+    max-width: 768px;
+    max-height: 1024px;
     margin: 0 auto;
   }
 
@@ -101,6 +101,7 @@
   <div slot="modal">
     <div class="modal-header">
       <h2>{currentIndex + 1} / {photoList.length}</h2>
+      <h2>← 좌우로 스와이프 →</h2>
       <button on:click={() => dispatch('close')}>닫기</button>
     </div>
     <div class="modal">

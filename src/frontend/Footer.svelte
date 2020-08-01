@@ -8,7 +8,7 @@
     }
 
     .thankyou {
-      font-family: 'Coming Soon', cursive;
+      font-family: 'Cafe24Oneprettynight', serif;
       font-size: 28px;
       text-align: center;
       line-height: 1.5;
@@ -17,12 +17,15 @@
 
     .copyright {
       display: block;
-      font-family: 'Coming Soon', cursive;
+      font-family: 'Cafe24Oneprettynight', serif;
       font-size: 16px;
       text-align: center;
       line-height: 1.5;
       color: #fff;
       margin-top: 10px;
+      > a {
+        font-family: 'Cafe24Oneprettynight', serif;
+      }
     }
 
     .github {
@@ -44,6 +47,9 @@
       }
       .copyright {
         font-size: 12px;
+        > a {
+          font-family: 'Cafe24Oneprettynight', serif;
+        }
       }
       .github {
         > a {
@@ -69,13 +75,21 @@
     <p class="thankyou">Thank you</p>
     <div class="github">
       <a
-        href="https://github.com/khj809/khjlji-wedding-invitation"
+        href="https://github.com/sunghwangim/leenkim-wedding"
         target="_blank">
         <img src="/assets/images/ic-github.png" alt="github" />
       </a>
     </div>
     <small class="copyright">
-      © 2019 Jeongim & Haejoon. All Rights Reserved.
+      ® 2020 Hyunjoo & Sunghwan. All rights reserved.
+    </small>
+    <small class="copyright">
+      This project created a fork of
+      <a
+        href="https://github.com/khj809/khjlji-wedding-invitation"
+        target="_blank">
+        khj809/khjlji-wedding-invitation
+      </a>
     </small>
   </div>
 </div>

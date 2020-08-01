@@ -15,8 +15,8 @@
     "svelte-preprocess": "^2.12.0"
   },
   "scripts": {
-    "dev:client": "NODE_ENV=development rollup -c -w",
-    "dev:server": "NODE_ENV=development nodemon src/index.js",
+    "dev:client": "rollup -c -w",
+    "dev:server": "nodemon src/index.js",
     "dev": "run-p dev:client dev:server",
     "build": "NODE_ENV=production rollup -c",
     "start": "NODE_ENV=production node src/index.js"

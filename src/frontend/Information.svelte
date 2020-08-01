@@ -16,13 +16,15 @@
       margin: 0 auto;
       border-radius: 50%;
       background-repeat: no-repeat;
-      background-image: url('/assets/images/ogImage.jpg');
+      background-image: url('/assets/images/photo-08.jpg');
     }
     &-bride {
-      background-position: 62% 45%;
+      background-size: 25em;
+      background-position: 25% 37%;
     }
     &-groom {
-      background-position: 36% 42%;
+      background-size: 25em;
+      background-position: 70% 30%;
     }
     &-rings {
       width: 10vw;
@@ -139,22 +141,22 @@
   <!-- 신부, 신랑 연락처 -->
   <div class="section couple">
     <div class="grid">
-      <p class="sub-title align-center">연락처</p>
+      <p class="sub-title align-center">축하인사 건네실 곳</p>
       <div class="couple-info flex">
         <!-- 신부 -->
-        <div class="brider-wrap align-center">
+        <div class="bride-wrap align-center">
           <div>
             <i class="ic-bride" />
           </div>
           <div class="relation">
             신부
-            <strong>임정임</strong>
+            <strong>이현주</strong>
           </div>
           <div class="tel-wrap">
-            <a href="tel:010-0000-0000" class="ic-call">
+            <a href="tel:010-9797-4388" class="ic-call">
               <img src="/assets/images/ic-call.png" alt="신부에게 전화하기" />
             </a>
-            <a href="sms:010-0000-0000" class="ic-message">
+            <a href="sms:010-9797-4388" class="ic-message">
               <img
                 src="/assets/images/ic-message.png"
                 alt="신부에게 문자하기" />
@@ -174,13 +176,13 @@
           </div>
           <div class="relation">
             신랑
-            <strong>김해준</strong>
+            <strong>김성환</strong>
           </div>
           <div class="tel-wrap">
-            <a href="tel:010-0000-0000" class="ic-call">
+            <a href="tel:010-4583-3564" class="ic-call">
               <img src="/assets/images/ic-call.png" alt="신랑에게 전화하기" />
             </a>
-            <a href="sms:010-0000-0000" class="ic-message">
+            <a href="sms:010-4583-3564" class="ic-message">
               <img
                 src="/assets/images/ic-message.png"
                 alt="신랑에게 문자하기" />
@@ -200,16 +202,16 @@
           <div>
             <span class="name">
               <em>어머니</em>
-              우지순
+              박정자
             </span>
           </div>
           <div>
-            <a href="tel:010-0000-0000" class="ic-call">
+            <a href="tel:010-4721-4388" class="ic-call">
               <img
                 src="/assets/images/ic-call.png"
                 alt="신부 측 어머니께 전화하기" />
             </a>
-            <a href="sms:010-0000-0000" class="ic-message">
+            <a href="sms:010-4721-4388" class="ic-message">
               <img
                 src="/assets/images/ic-message.png"
                 alt="신부 측 어머니께 문자하기" />
@@ -220,16 +222,16 @@
           <div>
             <span class="name">
               <em>아버지</em>
-              임종구
+              이수송
             </span>
           </div>
           <div>
-            <a href="tel:010-0000-0000" class="ic-call">
+            <a href="tel:010-4582-4388" class="ic-call">
               <img
                 src="/assets/images/ic-call.png"
                 alt="신부 측 아버지께 전화하기" />
             </a>
-            <a href="sms:010-0000-0000" class="ic-message">
+            <a href="sms:010-4583-4388" class="ic-message">
               <img
                 src="/assets/images/ic-message.png"
                 alt="신부 측 아버지께 문자하기" />
@@ -244,16 +246,16 @@
           <div>
             <span class="name">
               <em>어머니</em>
-              박명숙
+              김백수
             </span>
           </div>
           <div>
-            <a href="tel:010-0000-0000" class="ic-call">
+            <a href="tel:010-9668-3564" class="ic-call">
               <img
                 src="/assets/images/ic-call.png"
                 alt="신랑 측 어머니께 전화하기" />
             </a>
-            <a href="sms:010-0000-0000" class="ic-message">
+            <a href="sms:010-9668-3564" class="ic-message">
               <img
                 src="/assets/images/ic-message.png"
                 alt="신랑 측 어머니께 문자하기" />
@@ -264,16 +266,16 @@
           <div>
             <span class="name">
               <em>아버지</em>
-              김정수
+              김남걸
             </span>
           </div>
           <div>
-            <a href="tel:010-0000-0000" class="ic-call">
+            <a href="tel:010-4535-6619" class="ic-call">
               <img
                 src="/assets/images/ic-call.png"
                 alt="신랑 측 아버지께 전화하기" />
             </a>
-            <a href="sms:010-0000-0000" class="ic-message">
+            <a href="sms:010-4535-6619" class="ic-message">
               <img
                 src="/assets/images/ic-message.png"
                 alt="신랑 측 아버지께 문자하기" />

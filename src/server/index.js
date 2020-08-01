@@ -22,11 +22,11 @@ app.use(
   hostValidation({
     hosts: [
       `localhost:${process.env.PORT}`,
-      'khjlji-wedding-invitation.herokuapp.com',
+      'leenkim-wedding.herokuapp.com',
     ],
   })
 );
-const hostProduction = 'https://khjlji-wedding-invitation.herokuapp.com';
+const hostProduction = 'https://leenkim-wedding.herokuapp.com';
 
 const typeDefs = gql(
   fs.readFileSync(__dirname.concat('/schema.graphql'), 'utf8')

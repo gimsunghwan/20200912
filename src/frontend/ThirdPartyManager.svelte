@@ -7,7 +7,7 @@
     loadFacebook();
     loadGoogle();
     loadNaver();
-    loadDaumMap();
+    loadKakaoMap();
     loadTwitter();
   });
 
@@ -94,14 +94,14 @@
     });
   };
 
-  const loadDaumMap = () => {
+  const loadKakaoMap = () => {
     const appKey = '9fad4b64ad899ef28e5195fd119e8b89';
     const url = `//dapi.kakao.com/v2/maps/sdk.js?appKey=${appKey}&autoload=false`;
     asyncLoadScript(url, () => {
-      daum.maps.load(() => {
+      kakao.maps.load(() => {
         thirdPartyContext.set({
           ...$thirdPartyContext,
-          daumMap: {
+          kakaoMap: {
             ready: true,
           },
         });

@@ -98,15 +98,19 @@
     > h1 {
       display: table-cell;
       vertical-align: middle;
-      font-family: 'Coming Soon', cursive;
+      font-family: 'MapoGoldenPier', serif;
       font-size: 5rem;
-      font-weight: 400;
+      font-weight: 800;
       text-shadow: 1px 1px 1px #000;
       letter-spacing: 5px;
       color: #fff;
     }
   }
 
+  .mid-line {
+    font-size: 2.5rem;
+    font-weight: 200;
+  }
   .lim {
     animation: fadeInDown 0.5s 0.5s;
     animation-fill-mode: both;
@@ -236,16 +240,14 @@
 <header>
   <div class="grid title-area align-center">
     <h1>
-      <p class="lim">
-        LIM
+      <p class="lee">
+        이현주
         <br class="ls-tablet" />
-        JEONGIM
       </p>
-      <div class="mid-line">&</div>
+      <div class="mid-line">그리고</div>
       <p class="kim">
-        KIM
+        김성환
         <br class="ls-tablet" />
-        HAEJOON
       </p>
     </h1>
   </div>
@@ -260,13 +262,10 @@
       <a href="#id-gallery" class="ic-gallery">사진첩</a>
     </li>
     <li>
-      <a href="#id-gift" class="ic-gift">선물예약</a>
-    </li>
-    <li>
       <a href="#id-map" class="ic-comeon">오시는길</a>
     </li>
     <li>
-      <a href="#id-comment" class="ic-comment">댓글달기</a>
+      <a href="#id-comment" class="ic-comment">방명록쓰기</a>
     </li>
   </ul>
 </div>

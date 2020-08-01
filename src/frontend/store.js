@@ -16,7 +16,7 @@ const thirdPartyContext = writable({
   google: {
     ready: false,
   },
-  daumMap: {
+  kakaoMap: {
     ready: false,
   },
   twitter: {

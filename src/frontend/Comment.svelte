@@ -70,7 +70,7 @@
       handleTextareaResize(e.target[0]);
     } catch (err) {
       console.log(err);
-      toastMsg('댓글 등록에 실패하였습니다.');
+      toastMsg('방명록 등록에 실패하였습니다.');
     }
   };
 
@@ -83,7 +83,7 @@
       comments = comments.filter(c => c.id !== deletedComment.id);
     } catch (err) {
       console.log(err);
-      toastMsg('댓글 삭제에 실패하였습니다.');
+      toastMsg('방명록 삭제에 실패하였습니다.');
     }
   };
 
@@ -110,7 +110,7 @@
   }
 
   .login-name {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Cafe24Oneprettynight';
     font-size: 18px;
     text-align: left;
     margin-bottom: 10px;
@@ -145,7 +145,7 @@
     > textarea,
     > input {
       max-height: 100px;
-      font-family: 'Nanum Gothic', sans-serif;
+      font-family: 'Cafe24Oneprettynight';
       font-size: 18px;
       line-height: 1.5;
       padding: 5px 10px;
@@ -199,7 +199,7 @@
         <textarea
           rows="1"
           maxlength="1000"
-          placeholder={!!$user ? '1000자 이내 입력' : '소셜 로그인을 해주세요.'}
+          placeholder={!!$user ? '1000자 까지 입력할 수 있습니다.' : 'SNS 로그인이 필요합니다(1분 미만 소요).'}
           on:focus|preventDefault={handleTextareaFocused}
           on:input={e => {
             handleTextareaResize(e.target);
