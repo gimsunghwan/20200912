@@ -1,4 +1,4 @@
-# 김성환 이현주 모바일청첩장 프로젝트
+# 리앤킴청첩장 프로젝트
 
 https://khjlji-wedding-invitation.herokuapp.com/
 

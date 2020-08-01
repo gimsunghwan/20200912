@@ -22,7 +22,7 @@
 
   const loadKakao = () => {
     const url = '//developers.kakao.com/sdk/js/kakao.min.js';
-    const appKey = '9fad4b64ad899ef28e5195fd119e8b89';
+    const appKey = 'c5e66317058d02c3d83bb0a35c88838b';
     asyncLoadScript(url, () => {
       Kakao.init(appKey);
       thirdPartyContext.set({
@@ -36,7 +36,7 @@
 
   const loadFacebook = () => {
     const url = 'https://connect.facebook.net/ko_KR/sdk.js';
-    const appId = '501249750611258';
+    const appId = '570597310274608';
     asyncLoadScript(url, () => {
       FB.init({
         appId,
@@ -55,7 +55,7 @@
 
   const loadNaver = () => {
     const url = 'https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js';
-    const clientId = '2nMKYhd4bH2BKFHmnYJ2';
+    const clientId = 'PtfLAAqT_IJKJuEc8y7g';
     asyncLoadScript(url, () => {
       var naverLogin = new naver.LoginWithNaverId({
         clientId,
@@ -78,10 +78,11 @@
   const loadGoogle = () => {
     const url = 'https://apis.google.com/js/platform.js';
     const clientId =
-      '899402326281-p24btin23m2no41nsdlcqs1ij38plo6j.apps.googleusercontent.com';
+      '200662672723-fje2840q6i0m1949ei43ea5opl1h6ihv.apps.googleusercontent.com';
     asyncLoadScript(url, () => {
       gapi.load('auth2', () => {
-        gapi.auth2.init({
+        gapi.auth2.init
+        gauth({
           client_id: clientId,
         });
         thirdPartyContext.set({
@@ -95,7 +96,7 @@
   };
 
   const loadKakaoMap = () => {
-    const appKey = '9fad4b64ad899ef28e5195fd119e8b89';
+    const appKey = 'd7fe6f4c257957d5c22fb9206c066beb';
     const url = `//dapi.kakao.com/v2/maps/sdk.js?appKey=${appKey}&autoload=false`;
     asyncLoadScript(url, () => {
       kakao.maps.load(() => {

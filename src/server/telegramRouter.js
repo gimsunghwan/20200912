@@ -2,7 +2,7 @@ require('dotenv').config();
 
 var TeleBot = require('telebot');
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
-let chatId = '607765137';
+let chatId = '55464620';
 
 const bot = new TeleBot(TELEGRAM_TOKEN);
 bot.on(/\/start/, msg => {
