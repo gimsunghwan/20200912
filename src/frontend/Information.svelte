@@ -20,7 +20,7 @@
     }
     &-bride {
       background-size: 25em;
-      background-position: 25% 37%;
+      background-position: 29% 37%;
     }
     &-groom {
       background-size: 25em;

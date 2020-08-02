@@ -22,7 +22,7 @@
 
   const loadKakao = () => {
     const url = '//developers.kakao.com/sdk/js/kakao.min.js';
-    const appKey = 'c5e66317058d02c3d83bb0a35c88838b';
+    const appKey = 'd7fe6f4c257957d5c22fb9206c066beb';
     asyncLoadScript(url, () => {
       Kakao.init(appKey);
       thirdPartyContext.set({
@@ -78,11 +78,10 @@
   const loadGoogle = () => {
     const url = 'https://apis.google.com/js/platform.js';
     const clientId =
-      '200662672723-fje2840q6i0m1949ei43ea5opl1h6ihv.apps.googleusercontent.com';
+      '899402326281-p24btin23m2no41nsdlcqs1ij38plo6j.apps.googleusercontent.com';
     asyncLoadScript(url, () => {
       gapi.load('auth2', () => {
-        gapi.auth2.init
-        gauth({
+        gapi.auth2.init({
           client_id: clientId,
         });
         thirdPartyContext.set({
