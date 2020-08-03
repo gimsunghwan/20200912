@@ -122,7 +122,7 @@
   <LoginModal
     on:googleSignIn={onGoogleSignIn}
     on:kakaoSignIn={onKakaoSignIn}
-    on:naverSignIn={onNaverSignIn}
+    on:naverSignIn={doNaverSignIn}
     on:facebookSignIn={onFacebookSignIn}
     on:close={() => showLoginModal.set(false)} />
 {/if}
