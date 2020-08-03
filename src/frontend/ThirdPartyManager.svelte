@@ -69,6 +69,7 @@
         ...$thirdPartyContext,
         naver: {
           ready: true,
+          callbackUrl: true,
           authorizeUrl: naverLogin.generateAuthorizeUrl(),
         },
       });
@@ -78,7 +79,7 @@
   const loadGoogle = () => {
     const url = 'https://apis.google.com/js/platform.js';
     const clientId =
-      '899402326281-p24btin23m2no41nsdlcqs1ij38plo6j.apps.googleusercontent.com';
+      '200662672723-fje2840q6i0m1949ei43ea5opl1h6ihv.apps.googleusercontent.com';
     asyncLoadScript(url, () => {
       gapi.load('auth2', () => {
         gapi.auth2.init({

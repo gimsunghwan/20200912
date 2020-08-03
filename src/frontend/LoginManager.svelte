@@ -81,7 +81,7 @@
       });
     } catch (err) {
       console.log(err);
-      toastMsg('네이버 계정으로 로그인에 실패하였습니다.');
+      toastMsg(err);
     }
   };
 
