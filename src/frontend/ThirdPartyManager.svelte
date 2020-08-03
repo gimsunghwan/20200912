@@ -58,18 +58,18 @@
     const clientId = 'PtfLAAqT_IJKJuEc8y7g';
     asyncLoadScript(url, () => {
       var naverLogin = new naver.LoginWithNaverId({
-        clientId,
+        clientId: clientId,
         callbackUrl: `${window.location.protocol}//${window.location.hostname +
           (location.port == '' || location.port == undefined
             ? ''
             : ':' + location.port)}/naverCallback`,
+        isPopup: false,
       });
       naverLogin.init();
       thirdPartyContext.set({
         ...$thirdPartyContext,
         naver: {
           ready: true,
-          callbackUrl: true,
           authorizeUrl: naverLogin.generateAuthorizeUrl(),
         },
       });

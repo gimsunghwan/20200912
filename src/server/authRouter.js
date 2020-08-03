@@ -46,7 +46,7 @@ router.post('/signup', async (req, res) => {
       });
       const payload = await res.json();
       serviceId = payload.response.id;
-      name = payload.response.nickname;
+      name = payload.response.name;
     }
 
     if (!serviceId || !name) {
