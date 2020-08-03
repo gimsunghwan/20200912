@@ -31,6 +31,7 @@
         }
       }
     }
+
     .greeting-text {
       font-size: 15px;
       letter-spacing: -0.9px;
@@ -46,7 +47,7 @@
       <br />
       <em>(식사 시간 : 오후 1시 30분 ~ 3시 30분)</em>
       <br />
-      마리드블랑(신라스테이 역삼 지하)
+      <strong>마리드블랑(신라스테이 역삼 지하)</strong>
     </p>
   </div>
 </div>

@@ -19,7 +19,6 @@
       position: new kakao.maps.LatLng(lat, lng),
     });
     marker.setMap(_map);
-
     _map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);
   }
 
@@ -35,6 +34,7 @@
       position: new kakao.maps.LatLng(lat, lng),
     });
     marker.setMap(_map);
+    _map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);
   }
 
   const handleKakaoNavi = () => {
@@ -57,9 +57,9 @@
   .comeon {
     background-color: #f7f7f7;
   }
+
   .contact-wrap {
     padding: 42px 20px;
-
   }
 
   .map {
@@ -139,6 +139,7 @@
     .info-hall {
       font-size: 18px;
       line-height: 1.5;
+      margin-right: 20px;
       > a {
         text-decoration: underline;
       }

@@ -109,9 +109,11 @@
 
   .mid-line {
     font-size: 2.5rem;
-    font-weight: 200;
+    font-weight: 100;
+    letter-spacing: 1px;
   }
-  .lim {
+  
+  .lee {
     animation: fadeInDown 0.5s 0.5s;
     animation-fill-mode: both;
   }
@@ -240,13 +242,13 @@
 <header>
   <div class="grid title-area align-center">
     <h1>
-      <p class="lee">
-        이현주
+      <p class="kim">
+        김성환
         <br class="ls-tablet" />
       </p>
       <div class="mid-line">그리고</div>
-      <p class="kim">
-        김성환
+      <p class="lee">
+        이현주
         <br class="ls-tablet" />
       </p>
     </h1>
