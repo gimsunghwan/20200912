@@ -10,8 +10,7 @@
   $: if ($thirdPartyContext.kakaoMap.ready) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
-      level: 3,
-      draggable: true,
+      level: 5,
       scrollwheel: true,
     };
     var _map = new kakao.maps.Map(map, options);
@@ -20,13 +19,12 @@
     });
     marker.setMap(_map);
     _map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);
-  }
+  };
 
   function handleResize(event) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
       level: 3,
-      draggable: true,
       scrollwheel: true,
     };
     var _map = new kakao.maps.Map(map, options);
@@ -35,7 +33,7 @@
     });
     marker.setMap(_map);
     _map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);
-  }
+  };
 
   const handleKakaoNavi = () => {
     Kakao.Navi.start({

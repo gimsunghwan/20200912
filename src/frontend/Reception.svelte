@@ -11,7 +11,6 @@
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
       level: 3,
-      draggable: true,
       scrollwheel: true,
     };
     var re_map = new kakao.maps.Map(map, options);
@@ -25,8 +24,7 @@
   function handleResize(event) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
-      level: 3,
-      draggable: true,
+      level: 5,
       scrollwheel: true,
     };
     var re_map = new kakao.maps.Map(map, options);
@@ -38,6 +36,7 @@
   }
 
   const handleKakaoNavi = () => {
+    Kakao.init('d7fe6f4c257957d5c22fb9206c066beb');
     Kakao.Navi.start({
       name: '하트인세코',
       x: lng,
@@ -177,7 +176,7 @@
       <p class="info-reception align-center">
         <strong>창원컨벤션센터 1층 하트인세코</strong>
         <br />
-        2020년 9월 5일 토요일 오후 6시 30분~9시
+        2020. 09. 05. 토요일 오후 6시 30분 ~ 9시
       </p>
 
       <div class="section location-wrap">

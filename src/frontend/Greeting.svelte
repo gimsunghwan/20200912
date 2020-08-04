@@ -43,7 +43,7 @@
   <div class="grid">
     <p class="sub-title align-center">초대합니다</p>
     <p class="info-wedding align-center">
-      2020. 09. 12 토요일 오후 2시
+      2020. 09. 12. 토요일 오후 2시
       <br />
       <em>(식사 시간 : 오후 1시 30분 ~ 3시 30분)</em>
       <br />
