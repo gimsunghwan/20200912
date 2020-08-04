@@ -24,7 +24,8 @@
   function handleResize(event) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
-      level: 5,
+      level: 4,
+      draggable: true,
       scrollwheel: true,
     };
     var re_map = new kakao.maps.Map(map, options);
@@ -36,11 +37,10 @@
   }
 
   const handleKakaoNavi = () => {
-    Kakao.init('d7fe6f4c257957d5c22fb9206c066beb');
     Kakao.Navi.start({
       name: '하트인세코',
-      x: lng,
-      y: lat,
+      x: 35.239037,
+      y: 128.657668,
       coordType: 'wgs84',
     });
   };

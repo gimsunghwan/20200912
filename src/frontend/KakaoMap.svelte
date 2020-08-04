@@ -10,7 +10,8 @@
   $: if ($thirdPartyContext.kakaoMap.ready) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
-      level: 5,
+      level: 4,
+      draggable: true,
       scrollwheel: true,
     };
     var _map = new kakao.maps.Map(map, options);
@@ -38,8 +39,8 @@
   const handleKakaoNavi = () => {
     Kakao.Navi.start({
       name: '마리드블랑',
-      x: lng,
-      y: lat,
+      x: 37.5046955,
+      y: 127.0412371,
       coordType: 'wgs84',
     });
   };
