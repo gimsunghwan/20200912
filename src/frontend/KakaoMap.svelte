@@ -12,7 +12,6 @@
       center: new kakao.maps.LatLng(lat, lng),
       level: 4,
       draggable: true,
-      scrollwheel: true,
     };
     var _map = new kakao.maps.Map(map, options);
     var marker = new kakao.maps.Marker({
@@ -25,8 +24,8 @@
   function handleResize(event) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
-      level: 3,
-      scrollwheel: true,
+      level: 4,
+      draggable: true,
     };
     var _map = new kakao.maps.Map(map, options);
     var marker = new kakao.maps.Marker({
@@ -39,8 +38,8 @@
   const handleKakaoNavi = () => {
     Kakao.Navi.start({
       name: '마리드블랑',
-      x: 37.5046955,
-      y: 127.0412371,
+      x: lng,
+      y: lat,
       coordType: 'wgs84',
     });
   };

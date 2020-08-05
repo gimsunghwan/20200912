@@ -98,7 +98,6 @@
     > h1 {
       display: table-cell;
       vertical-align: middle;
-      font-family: 'MapoGoldenPier', serif;
       font-size: 5rem;
       font-weight: 800;
       text-shadow: 1px 1px 1px #000;
@@ -107,12 +106,6 @@
     }
   }
 
-  .mid-line {
-    font-size: 2.5rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-  }
-  
   .lee {
     animation: fadeInDown 0.5s 0.5s;
     animation-fill-mode: both;
@@ -246,7 +239,7 @@
         김성환
         <br class="ls-tablet" />
       </p>
-      <div class="mid-line">그리고</div>
+      <p class="mid-line">그리고</p>
       <p class="lee">
         이현주
         <br class="ls-tablet" />

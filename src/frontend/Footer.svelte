@@ -84,7 +84,7 @@
       ® 2020 Hyunjoo & Sunghwan. All rights reserved.
     </small>
     <small class="copyright">
-      This project created a fork of
+      This project has created a fork of
       <a
         href="https://github.com/khj809/khjlji-wedding-invitation"
         target="_blank">

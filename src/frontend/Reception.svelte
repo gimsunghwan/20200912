@@ -10,8 +10,8 @@
   $: if ($thirdPartyContext.kakaoMap.ready) {
     const options = {
       center: new kakao.maps.LatLng(lat, lng),
-      level: 3,
-      scrollwheel: true,
+      level: 4,
+      draggable: true,
     };
     var re_map = new kakao.maps.Map(map, options);
     var re_marker = new kakao.maps.Marker({
@@ -26,7 +26,6 @@
       center: new kakao.maps.LatLng(lat, lng),
       level: 4,
       draggable: true,
-      scrollwheel: true,
     };
     var re_map = new kakao.maps.Map(map, options);
     var re_marker = new kakao.maps.Marker({
@@ -39,8 +38,8 @@
   const handleKakaoNavi = () => {
     Kakao.Navi.start({
       name: '하트인세코',
-      x: 35.239037,
-      y: 128.657668,
+      x: lng,
+      y: lat,
       coordType: 'wgs84',
     });
   };
