@@ -21,20 +21,6 @@
     _map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);
   };
 
-  function handleResize(event) {
-    const options = {
-      center: new kakao.maps.LatLng(lat, lng),
-      level: 4,
-      draggable: true,
-    };
-    var _map = new kakao.maps.Map(map, options);
-    var marker = new kakao.maps.Marker({
-      position: new kakao.maps.LatLng(lat, lng),
-    });
-    marker.setMap(_map);
-    _map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);
-  };
-
   const handleKakaoNavi = () => {
     Kakao.Navi.start({
       name: '마리드블랑',
@@ -177,8 +163,6 @@
     }
   }
 </style>
-
-<svelte:window on:resize={handleResize}/>
 
 <div id="id-map" class="section comeon">
   <div class="grid">

@@ -161,8 +161,6 @@
   }
 </style>
 
-<svelte:window on:resize={handleResize}/>
-
 <div id="id-reception" class="section">
   <div class="grid">
     <div class="reception-wrap">
