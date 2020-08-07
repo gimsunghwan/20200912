@@ -110,7 +110,7 @@
   }
 
   .login-name {
-    font-family: 'Cafe24Oneprettynight';
+    font-family: 'M PLUS Rounded 1c', 'Cafe24Oneprettynight', sans-serif;
     font-size: 18px;
     text-align: left;
     margin-bottom: 10px;
@@ -145,7 +145,7 @@
     > textarea,
     > input {
       max-height: 100px;
-      font-family: 'Cafe24Oneprettynight';
+      font-family: 'M PLUS Rounded 1c', 'Cafe24Oneprettynight', sans-serif;
       font-size: 18px;
       line-height: 1.5;
       padding: 5px 10px;

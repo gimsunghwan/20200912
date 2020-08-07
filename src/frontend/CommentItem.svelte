@@ -11,7 +11,7 @@
 
 <style lang="scss">
   .comment-list {
-    font-family: 'Cafe24Oneprettynight';
+    font-family: 'M PLUS Rounded 1c', 'Cafe24Oneprettynight', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -27,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     h5 {
-      font-family: 'Cafe24Oneprettynight';
+      font-family: 'M PLUS Rounded 1c', 'Cafe24Oneprettynight', sans-serif;
       font-size: 18px;
       > i {
         display: inline-block;
@@ -53,7 +53,7 @@
       }
     }
     span {
-      font-family: 'Cafe24Oneprettynight';
+      font-family: 'M PLUS Rounded 1c', 'Cafe24Oneprettynight', sans-serif;
       font-size: 18px;
     }
   }
@@ -65,7 +65,7 @@
     margin-top: 10px;
     > p {
       width: calc(100% - 30px);
-      font-family: 'Cafe24Oneprettynight';
+      font-family: 'M PLUS Rounded 1c', 'Cafe24Oneprettynight', sans-serif;
       font-size: 18px;
       line-height: 1.5;
       white-space: pre-wrap;
