@@ -173,7 +173,7 @@
       <p class="info-reception align-center">
         <strong>창원컨벤션센터 1층 하트인세코</strong>
         <br />
-        2020. 09. 05. 토요일 오후 6시 30분 ~ 9시
+        2020. 12. 12. 토요일 오후 6시 30분 ~ 9시
       </p>
 
       <div class="section location-wrap">
