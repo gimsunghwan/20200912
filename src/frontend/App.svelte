@@ -7,7 +7,7 @@
   import Information from './Information.svelte';
   import Gallery from './Gallery.svelte';
   import KakaoMap from './KakaoMap.svelte';
-  import Reception from './Reception.svelte';
+  import BankAccount from './BankAccount.svelte'
   import Comment from './Comment.svelte';
   import SocialShare from './SocialShare.svelte';
   import Footer from './Footer.svelte';
@@ -36,7 +36,7 @@
     <Information />
     <Gallery />
     <KakaoMap />
-    <Reception />
+    <BankAccount />
     <Comment />
     <SocialShare />
     <Footer />
