@@ -145,7 +145,9 @@
             <span class="name">
               <em>예금주 : 김남걸</em>
               <br />
-              <strong> 경남은행 548-21-0295780 </strong>
+              <strong> 경남은행 </strong>
+              <br />
+              <strong> 548-21-0295780 </strong>
             </span>
           </div>
         </div>
@@ -158,7 +160,9 @@
             <span class="name">
               <em>예금주 : 이수송</em>
               <br />
-              <strong> 국민은행 080-24-0120-369 </strong>
+              <strong> 국민은행 <strong>
+              <br />
+              <strong> 080-24-0120-369 </strong>
             </span>
           </div>
         </div>
