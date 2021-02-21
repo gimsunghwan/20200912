@@ -23,6 +23,12 @@
     padding: 42px 20px;
   }
 
+  .ic {
+    &-youtube {
+      background-image: url('/assets/images/ic-youtube.png');
+    }
+  }
+
   @media (max-width: 411px) {
     .invitation-wrap {
       .info-wedding {
@@ -48,6 +54,14 @@
       <em>(식사 시간 : 오후 1시 30분 ~ 3시 30분)</em>
       <br />
       <strong>마리드블랑(신라스테이 역삼 지하)</strong>
+      <br />
+      <em>(유튜브 생중계 : 오후 1시 30분 ~, 아래 링크 클릭)</em>
+      <a href="https://youtu.be/MPzAKtDtbi4/" class="ic-youtube">
+        <img
+          src="/assets/images/ic-youtube.png"
+          alt="유튜브 생중계 보기" />
+      </a>
+      <br />
     </p>
   </div>
 </div>
