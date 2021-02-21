@@ -26,7 +26,11 @@
   .ic {
     &-youtube {
       background-image: url('/assets/images/ic-youtube.png');
-    }
+      display: inline-block;
+      vertical-align: middle;
+      width: 32px;
+      height: 22.5px;
+      }
   }
 
   @media (max-width: 411px) {
