@@ -23,11 +23,7 @@
     padding: 42px 20px;
   }
 
-  .ic {
-    &-youtube {
-      background-image: url('/assets/images/ic-youtube.png');
-      display: inline-block;
-      vertical-align: middle;
+  .ic-youtube {
       width: 34px;
       height: 24px;
       }
@@ -60,8 +56,9 @@
       <strong>마리드블랑(신라스테이 역삼 지하)</strong>
       <br />
       <em>(유튜브 생중계 : 오후 1시 30분 ~, 아래 아이콘 클릭)</em>
-      <a href="https://youtu.be/MPzAKtDtbi4/" class="ic-youtube">
-        <img
+      <br />
+      <a href="https://youtu.be/MPzAKtDtbi4/" >
+        <img class="ic-youtube"
           src="/assets/images/ic-youtube.png"
           alt="유튜브 생중계 보기" />
       </a>
