@@ -24,6 +24,8 @@
   }
 
   .ic-youtube {
+    display: inline-block;
+    vertical-align: middle;
     height: 21px;
     width: 42px;
   }
