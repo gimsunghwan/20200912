@@ -24,8 +24,8 @@
   }
 
   .ic-youtube {
-    height: 16px;
-    width: 32px;
+    height: 21px;
+    width: 42px;
   }
 
   @media (max-width: 411px) {
@@ -61,8 +61,9 @@
           <img class="ic-youtube"
             src="/assets/images/ic-youtube.png"
             alt="유튜브 생중계 보기" />
-        클릭 또는 유튜브 "김성환 이현주 결혼식" 검색
-      </a>
+        클릭 </a>
+      <br />
+      <em>또는 유튜브 "김성환 이현주 결혼식" 검색</em>
       <br />
     </p>
   </div>
