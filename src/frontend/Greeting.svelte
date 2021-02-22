@@ -24,7 +24,8 @@
   }
 
   .ic-youtube {
-    height: 24px;
+    height: 16px;
+    width: 32px;
   }
 
   @media (max-width: 411px) {
