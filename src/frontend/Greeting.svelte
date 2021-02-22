@@ -54,14 +54,14 @@
       <br />
       <strong>마리드블랑(신라스테이 역삼 지하)</strong>
       <br />
-      <em>Youtube 생중계 : 오후 1시 30분 ~</em>
+      유튜브 생중계 : 오후 1시 30분 ~
       <br />
       <em> 참여링크 :
         <a href="https://youtu.be/MPzAKtDtbi4/" >
           <img class="ic-youtube"
             src="/assets/images/ic-youtube.png"
             alt="유튜브 생중계 보기" />
-        또는 Youtube ""김성환 이현주 결혼식"" 검색
+        클릭 또는 유튜브 "김성환 이현주 결혼식" 검색
       </a>
       <br />
     </p>
